@@ -1,14 +1,5 @@
 #!/bin/env bash
 
-
-#engine=$(ibus engine)
-#if [ "$engine" == "xkb:us::eng" ]; then
-#ibus engine OpenBangla - OpenBangla Keyboard
-#else
-#ibus engine xkb:us::eng - English
-#fi
-
-
 engine=$(ibus engine)
 path=$HOME/.cache/ibus-layout
 
